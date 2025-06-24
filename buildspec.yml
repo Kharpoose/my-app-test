@@ -1,11 +1,9 @@
 version: 0.2
 
-env:
-  runtime-versions:
-    nodejs: 18
-
 phases:
   install:
+    runtime-versions:
+      nodejs: 18
     commands:
       - echo Installing dependencies
 
