@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <main style={{ padding: '2rem' }}>
-      <h1>Main Page!!</h1>
+      <h1>Main Page!!!</h1>
       <p>You can switch pages with using buttons.</p>
 
       <button onClick={() => router.push('/about')} style={buttonStyle}>
